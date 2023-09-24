@@ -18,6 +18,7 @@
         --toboo-skyblue: rgb(52, 180, 232, 1);
         --toboo-limegreen: rgb(77, 194, 34);
         --toboo-green: #0f720ad6;
+        --toboo-orange: orange;
         --toboo-default-font-size: 16px;
 }
 
@@ -51,6 +52,32 @@ body
 /* #endregion Common */
 
 /* #region Utility */
+
+.skyblue
+{
+        background-color: var(--toboo-skyblue);
+}
+
+.orange
+{
+        background-color: var(--toboo-orange);
+}
+
+.purple
+{
+        background-color: var(--toboo-purple);
+}
+
+.green
+{
+        background-color: var(--toboo-green);
+}
+
+.greenlime
+{
+        background-color: var(--toboo-limegreen);
+}
+
 
 .py_1 
 {
@@ -134,7 +161,7 @@ body
         background-color: var(--toboo-skyblue);
         color: var(--toboo-white);        
         margin-left: 6rem;
-        vertical-align: middle;
+        /*vertical-align: middle;*/
 }
 
 .hl_sp2
@@ -143,7 +170,42 @@ body
         background-color: var(--toboo-wite);
         color: var(--toboo-graydark);
         margin-left: 1rem;
-        vertical-align: middle;
+        /*vertical-align: middle;*/
+}
+
+.name_task
+{
+        margin-top: 3rem;
+        /*border: 1px solid black;*/
+        margin-left: 6rem;   
+        font-size: 1.5rem;
+        font-weight: bold;
+}
+
+.symbol
+{
+        display:inline-block; 
+        border: 1px solid var(--toboo-green);
+        color: var(--toboo-green);
+        border-radius: 50%;
+        margin-left: 6rem;
+        margin-top: 1rem;
+}       
+
+.task
+{
+        display:inline-block;     
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-left: 1rem;;
+}
+
+.task_label
+{
+        display:inline-block;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 50%;
 }
 
 /* #endregion Main */
