@@ -74,6 +74,11 @@ body
         background-color: var(--toboo-green);
 }
 
+.pink
+{
+        background-color: var(--toboo-pink);
+}
+
 .greenlime
 {
         background-color: var(--toboo-limegreen);
@@ -148,6 +153,7 @@ body
         width: 80%;
         margin: auto;
         background-color: var(--toboo-white); 
+        padding-bottom: 4rem;
 }
 
 .sub_header
@@ -222,6 +228,10 @@ body
 
 
 /* #region Footer */
-
+footer
+{
+        margin-top: 1rem;
+        padding-left: 12rem;
+}
 
 /* #endregion Footer */
